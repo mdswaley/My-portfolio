@@ -1,0 +1,201 @@
+html{
+    scroll-behavior: smooth;
+}
+.cont{
+    width: 100%;
+    height: 700px;
+    box-sizing: border-box;
+    background-color: #34343b;
+}
+.cont-title{
+    height: 40%;
+    /* background-color: red; */
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 100px;
+    margin: 0;
+   
+    text-align: center;
+}
+.cont-title h1,h3,p{
+    padding: 0;
+    margin: 0;
+}
+.cont-title h3{
+    color: rgb(212, 212, 81);
+}
+.cont-title h1{
+    color: rgb(210, 202, 202);
+}
+.cont-title p{
+    color: rgb(210, 202, 202);
+    opacity: 0.7;
+}
+.cont-coll{
+    /* background-color: rgb(12, 169, 254); */
+    width: 100%;
+    height: calc(700px - 40%);
+}
+.container{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    width: 100%;
+    /* background-color: blanchedalmond; */
+}
+.email,
+.number,
+.linkedin{
+    /* display: inline-block; */
+    height: 100%;
+    width: 250px;
+   
+    display: inline;
+    margin-left: 20px;
+    /* text-align: center; */
+    /* align-items: center; */
+    
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #36363e;
+
+}
+.email-left{
+    /* padding: 15px;
+    display: inline;
+    margin-right: 30px; */
+    height: 100%;
+    width: 20%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    /* background-color: yellow; */
+    float: left;
+}
+.email-right{
+    height: 100%;
+    float: right;
+    padding: 20px;
+    padding: 17px 3px 10px 0px;
+    box-sizing: border-box;
+    /* background-color: gray; */
+    width: calc(250px - 20%);
+    
+
+}
+.email-right a{
+    font-size: 17px;
+    text-decoration: none;
+    color: rgb(212, 212, 81);
+}
+.number-left{
+    height: 100%;
+    width: 25%;
+    text-align: center;
+    padding: 20px;
+    
+    box-sizing: border-box;
+    /* background-color: yellow; */
+    float: left;
+}
+.number-right{
+    height: 100%;
+    /* inline-size: 230px; */
+    float: right;
+    padding: 20px;
+    padding: 18px 40px 10px 10px;
+    box-sizing: border-box;
+    /* background-color: gray; */
+    width: calc(250px - 25%);
+}
+.number-right a{
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(212, 212, 81);
+}
+.linkedin-left{
+    height: 100%;
+    /* background: white; */
+    width: 25%;
+    text-align: center;
+    /* padding: 20px; */
+    padding-top: 17px;
+    padding-left: 32px;
+    
+    box-sizing: border-box;
+    /* background-color: yellow; */
+    float: left;
+}
+
+.linkedin-right{
+    height: 100%;
+    /* inline-size: 230px; */
+    float: right;
+    padding: 20px;
+    padding: 18px 90px 10px 10px;
+    box-sizing: border-box;
+   
+    /* background-color: gray; */
+    width: calc(250px - 25%);
+}
+.linkedin-right a{
+    text-decoration: none;
+    font-size: 18px;
+    color:rgb(212, 212, 81);
+}
+
+.container a::after {
+    display: block;
+    content: "";
+    border-bottom: solid 3px #019fb6;
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+  }
+  .container a:hover::after {
+    transform: scaleX(1);
+    transform-origin: 0% 50%;
+  }
+  .container a::after {
+    transform-origin: 100% 50%;
+  }
+  @media only screen and (max-width: 600px) {
+    .cont {
+      height: 600px;
+      /* background-color: #019fb6; */
+    }
+  
+    .cont-title {
+      padding-top: 50px;
+    }
+  
+    .container {
+      justify-content: space-between;
+      padding: 0;
+      flex-direction: column;
+      
+    }
+    .email-left,
+    .number-left,
+    .linkedin-left{
+        width: 20%;
+        padding-right: 0px;
+    }
+    .email-right,
+    .number-right,
+    .linkedin-right{
+        width: 80%;
+    
+    }
+  
+    .email,
+    .number,
+    .linkedin {
+        /* background-color: #019fb6; */
+        font-size: small;
+        margin-bottom: 20px;
+      width: 45%; /* Adjusted for larger screens */
+    }
+  }
+
+

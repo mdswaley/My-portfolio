@@ -1,0 +1,50 @@
+.achive{
+  width: 100%;
+  height: 700px;
+  
+}
+html{
+  scroll-behavior: smooth;
+}
+.card{
+  width: 100%;
+  height: 50%;
+  
+}
+.card img{
+  width: 100%;
+  height: 50%;
+}
+.w3-center{
+  color:rgb(212, 212, 81);
+}
+/* .mySlides{
+  width: 100%;
+  display: none;
+} */
+/* .card img{
+  width: 10%;
+  height: 100%;
+  object-fit: cover;
+  border: 2px solid white;
+  border-radius: 10px;
+  transition: all ease 0.5s;
+  cursor: pointer;
+}
+.card img:hover{
+  width: 100%;
+  
+} */
+.title{
+    height: calc(700px - 600px);
+    width: 100%;
+    /* background-color: aqua; */
+    box-sizing: border-box;
+}
+.title h2{
+    display: flex;
+    padding-top: 35px;
+    justify-content: center;
+    color: rgb(212, 212, 81);
+    text-transform: uppercase;
+}

@@ -1,0 +1,157 @@
+.main {
+    width: 100%;
+    margin-top: 30px;
+    height: 100%;
+    display: flex;
+    flex-direction: column; 
+  
+    /* Add media query for screens larger than 768px */
+    @media screen and (min-width: 768px) {
+      flex-direction: row;
+    }
+  }
+  
+  .left-main {
+    height: 100%;
+    text-align: center;
+   
+    /* background-color: aqua; */
+    width: 100%; /* Adjusted width for small screens */
+  }
+  
+  .center-main {
+    height: 100%;
+    width: 100%; /* Adjusted width for small screens */
+    /* background-color: rgb(2, 8, 8); */
+  }
+  .center-main img{
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .right-main {
+    /* background-color: red; */
+    height: 100%;
+    width: 100%; /* Adjusted width for small screens */
+
+  }
+  .right-main .inner-right {
+   /* display: inline-block; */
+   margin-top: 70px;
+  }
+  .inner-right h1{
+    color: rgb(212, 212, 81);
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+  }
+ .intr{
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    color:rgb(210, 202, 202) ;
+  }
+.pass{
+ color: rgb(255, 255, 255);
+ width: 70%;
+}
+.inner-right Link {
+  display: inline-block;
+
+  color: rgb(212, 212, 81);
+  text-decoration: none;
+  font-size: 17px;
+}
+.inner-right Link::after {
+  display: block;
+  content: "";
+  border-bottom: solid 3px #019fb6;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
+.inner-right Link:hover::after {
+  transform: scaleX(1);
+  transform-origin: 0% 50%;
+}
+.inner-right Link::after {
+  transform-origin: 100% 50%;
+}
+.move-down{
+  font-size: 3px;
+}
+  
+  .left-main p {
+    font-size: 50px;
+    margin-top: 70px;
+    font-weight:bolder;
+    /* background-color: transparent; */
+    color: rgb(210, 202, 202);
+    /* font-size: 24px; Adjusted font size for small screens */
+  }
+  
+  .left-main a {
+    text-decoration: none;
+    /* margin-top: 90px; */
+    background-color: transparent;
+    /* margin-top: 60px; */
+    font-weight: 700;
+    color: rgb(210, 202, 202);
+    padding-right: 4px;
+    transition: color 0.2s;
+    padding-left:4px ;
+    border-right: 2px solid rgb(247, 247, 222);
+    padding-right: 4px;
+    /* padding-left: 4px; */
+  }
+  .left-main a:hover{
+    color: rgb(224, 224, 112);
+}
+  
+  .left-main button {
+    margin-top: 55px;
+    padding: 10px; /* Adjusted padding for small screens */
+    font-size: 16px; /* Adjusted font size for small screens */
+    border: 1px solid yellow;
+    background-color: transparent;
+    text-transform: uppercase;
+    color: rgb(219, 219, 97);
+    transition: background-color 0.5s ease;
+    
+  }
+  .left-main button:hover{
+    background-color:rgb(224, 224, 112) ;
+    color: black;
+  }
+  
+  /* Add media query for screens larger than 768px */
+  @media screen and (min-width: 768px) {
+   
+    .left-main {
+      width: 30%;
+     
+    }
+  
+    .center-main {
+      width: 40%;
+    }
+  
+    .right-main {
+      width: 30%;
+      margin-left: 20px;
+    }
+
+  
+    .left-main p {
+      font-size: 50px;
+    }
+    .left-main a{
+      /* margin-top: 90px; */
+    }
+  
+    .left-main button {
+      margin-top: 70px;
+      font-size: 20px;
+    }
+  }
+  
