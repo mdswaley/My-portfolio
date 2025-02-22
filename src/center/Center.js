@@ -23,7 +23,7 @@ function Center() {
         <br />
         <br/>
         <br/>
-        <a href="#contact" id="btn">contact me</a>
+        <a href="https://drive.google.com/file/d/1DQxNaFS_EHcYW9X3lmCKglbSpdOaoWhP/view?usp=drive_link" id="btn">Resume / CV</a>
       </div>
       <div className="center-main">
         <svg
