@@ -44,9 +44,6 @@ body {
   text-decoration: none;
   font-size: 17px;
 }
-.right .contact {
-  border-right: 2px solid red;
-}
 
 .right a::after {
   display: block;

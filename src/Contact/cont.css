@@ -197,5 +197,43 @@ html{
       width: 45%; /* Adjusted for larger screens */
     }
   }
-
+  .github,
+  .leetcode {
+      height: 100%;
+      width: 250px;
+      display: inline-block;
+      margin-left: 20px;
+      box-sizing: border-box;
+      border-radius: 10px;
+      background-color: #36363e;
+  }
+  
+  .github-left,
+  .leetcode-left {
+      height: 100%;
+      width: 25%;
+      text-align: center;
+      padding-top: 17px;
+      padding-left: 32px;
+      box-sizing: border-box;
+      float: left;
+  }
+  
+  .github-right,
+  .leetcode-right {
+      height: 100%;
+      float: right;
+      padding: 20px;
+      padding: 18px 90px 10px 10px;
+      box-sizing: border-box;
+      width: calc(250px - 25%);
+  }
+  
+  .github-right a,
+  .leetcode-right a {
+      text-decoration: none;
+      font-size: 18px;
+      color: rgb(212, 212, 81);
+  }
+  
 

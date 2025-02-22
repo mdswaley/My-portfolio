@@ -18,14 +18,6 @@ function Nav() {
         <a href="#contact" className="contact">
           <i class="fa fa-fw fa-user"></i>Contact
         </a>
-        <div className="logoright">
-          <a href="#" style={{ color: "blue", fontSize: "8px" }}>
-            <Twitter />
-          </a>
-          <a href="#">
-            <Facebook />
-          </a>
-        </div>
       </div>
       <div className="left">
         <button href="#">MDS</button>

@@ -74,13 +74,7 @@ function Ser() {
           <h2>Web Research</h2>
           <p>10 Projects</p>
         </div>
-        <div className="marketing">
-          <CircleDollarSign
-            style={{ height: "70px", width: "70px", color: "white" }}
-          />
-          <h2>Marketing</h2>
-          <p>142 Projects</p>
-        </div>
+      
       </div>
       <div className="ser-exp">
         <div className="year-exp">
@@ -100,12 +94,6 @@ function Ser() {
             {counters.designItems}+
           </p>
           <p style={{ color: "white", padding: "0" }}>Design Items</p>
-        </div>
-        <div className="client-ser">
-          <p style={{ color: "rgb(212, 212, 81)", fontSize: "37px" }}>
-            {counters.clientsServed}+
-          </p>
-          <p style={{ color: "white", padding: "0" }}>Clients Served</p>
         </div>
       </div>
     </div>

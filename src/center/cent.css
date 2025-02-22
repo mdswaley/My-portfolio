@@ -108,7 +108,7 @@
     color: rgb(224, 224, 112);
 }
   
-  .left-main button {
+  .left-main #btn {
     margin-top: 55px;
     padding: 10px; /* Adjusted padding for small screens */
     font-size: 16px; /* Adjusted font size for small screens */
@@ -119,7 +119,7 @@
     transition: background-color 0.5s ease;
     
   }
-  .left-main button:hover{
+  .left-main #btn:hover{
     background-color:rgb(224, 224, 112) ;
     color: black;
   }
@@ -149,7 +149,7 @@
       /* margin-top: 90px; */
     }
   
-    .left-main button {
+    .left-main #btn {
       margin-top: 70px;
       font-size: 20px;
     }

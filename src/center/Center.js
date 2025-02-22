@@ -11,17 +11,19 @@ function Center() {
         <p>
           MD <br /> Swaley
         </p>
-        <a href="#">Instagram</a>
-        <a href="#" style={{ border: "none" }}>
+        <a href="https://www.instagram.com/md_swaley/">Instagram</a>
+        <a href="https://www.linkedin.com/in/md-swaley-034a1126b/" style={{ border: "none" }}>
           Linkedln
         </a>
         <br />
-        <a href="#">Behance</a>
-        <a href="#" style={{ border: "none" }}>
-          dribbble
+        <a href="https://github.com/mdswaley">GitBub</a>
+        <a href="https://leetcode.com/u/mdswaley075/" style={{ border: "none" }}>
+          LeetCode
         </a>
         <br />
-        <button>contact me</button>
+        <br/>
+        <br/>
+        <a href="#contact" id="btn">contact me</a>
       </div>
       <div className="center-main">
         <svg
@@ -79,11 +81,11 @@ function Center() {
         <div className="inner-right">
         <h1>introduction</h1>
         <p className="intr">Logic Building,<br/>
-        Frontend Web<br/> Developer
+        Full Stack Developer<br/> Developer
         </p>
-        <p className="pass">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus enim, sed animi labore numquam inventore consectetur.</p>
-        {/* <Link to="#">Learn More</Link> */}
-        {/* <span className="move-down"><MoveDown/></span> */}
+        <p className="pass">To use my extensive knowledge of software engineering, innovation problem-solving skills, and passion for technology
+to develop and implement high-quality software solutions and contribute to the success of the organization.
+</p>
         </div>
 
       </div>
